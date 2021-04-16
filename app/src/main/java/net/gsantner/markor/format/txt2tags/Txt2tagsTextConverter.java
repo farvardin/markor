@@ -14,6 +14,7 @@ import android.content.Context;
 
 import net.gsantner.markor.format.TextConverter;
 import net.gsantner.markor.format.TextFormat;
+import net.gsantner.markor.format.zimwiki.ZimWikiTextConverter;
 import net.gsantner.opoc.util.StringUtils;
 
 import org.apache.commons.io.FilenameUtils;
@@ -30,6 +31,7 @@ import java.util.regex.Pattern;
  * Used for preview.
  */
 @SuppressWarnings("WeakerAccess")
+<<<<<<< HEAD
 public class Txt2tagsTextConverter extends TextConverter {
     //private static final Pattern LIST_ORDERED_LETTERS = Pattern.compile("^\t*([\\d]+\\.|[a-zA-Z]+\\.) ");
     //private static final Pattern LIST_ORDERED_LETTERS = Pattern.compile("^\t*([\\d]+\\.|[a-zA-Z]+\\.) ");
@@ -216,4 +218,7 @@ public class Txt2tagsTextConverter extends TextConverter {
         Matcher headerMatcher = headerPattern.matcher(document.getContent());
         return headerMatcher.find();
     }*/
+
+public class Txt2tagsTextConverter extends ZimWikiTextConverter {
+
 }
