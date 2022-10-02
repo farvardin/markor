@@ -22,14 +22,12 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 public class Txt2tagsFileTests {
 
-<<<<<<< HEAD
-=======
+
     public static class GeneratorTests {
         @SuppressWarnings("SpellCheckingInspection")
         
     }
 
->>>>>>> more test corrections
     public static class ZimFileHeaderTest {
 
         private Pattern pattern;
